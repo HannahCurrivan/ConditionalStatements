@@ -24,3 +24,22 @@ The Elif Statement gives you another option.
 elif specific_impulse == 320:
     print("This means you can use Kerosene with the Specific Impulse of 320.")
 ```
+## Nested:
+This is were you can but another if statement into yor current if statements.
+
+```python
+if specific_impulse != 289:
+    print("This is less than or greater than specific impulse that the engine needs.")
+    
+    if specific_impulse_2 == 256:
+        print("Fuel type needed for a 256 Specific Impulse is Kerosene", specific_impulse_2)
+        
+    else: 
+        print("This fuel is incapable to give the specific impulse needed to launch such rocket.")
+    
+elif specific_impulse == 320:
+    print("This means you can use Kerosene with the Specific Impulse of 320.")
+    
+else:
+    print("Fuel type needed for a 289 Specific Impulse is Kerosene")
+```
