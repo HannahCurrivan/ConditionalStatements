@@ -1,4 +1,4 @@
-# ConditionalStatements
+# Conditional Statements
 This tutorial will cover If, Else, Elif, and nested.
 
 ## If Statements: 
