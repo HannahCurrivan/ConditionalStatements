@@ -18,3 +18,9 @@ else:
 ```
 
 ## Elif Statement:
+The Elif Statement gives you another option.
+
+```python
+elif specific_impulse == 320:
+    print("This means you can use Kerosene with the Specific Impulse of 320.")
+```
