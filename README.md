@@ -5,6 +5,10 @@ This tutorial will cover If, Else, Elif, and nested.
 During this conditional statement tutorial I am talking about the "Specific Impulse", but what does that mean?
 In the area of rocket propulsion, there is this thing called "Specific Impulse", which is the ratio of the thrust to the flow rate of the weight ejected out the back of the rocket. 
 
+<p align="center">
+  <img width="300" height="400" src="https://github.com/HannahCurrivan/ConditionalStatementsPython/blob/master/Ariane4.jpg">
+</p>
+
 ## If Statements: 
 If you are looking at the specfic impulse of rocket fuel. In this case you have a specific impulse of 289 Isp.
 
