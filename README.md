@@ -11,12 +11,13 @@ if specific_impulse >= 289:
 We are saying in this code ```if``` the specific impulse is greater then ```>=``` the specfic impulse value of 289, then you can print the following statement: ```print("This is greater than specific impulse that the engine can handle.")```
 
 ## Else Statement:
-If the specific impulse does not meet the required if statement the following command will be printed. 
+If the specific impulse does not meet the requirmments in the ```if``` statement. This is where a ```Else``` statement; this lets you give yourself another option to give a condition to a different outcome.  
 
 ```python
 else:
     print("Fuel type needed for a 289 Specific Impulse is Kerosene")
 ```
+We see that if the ```if``` statement is not carried out, the ```Else``` statement is then giving another option of an outcome with the following statement: ```print("Fuel type needed for a 289 Specific Impulse is Kerosene")```.
 
 ## Elif Statement:
 The Elif Statement gives you another option.
