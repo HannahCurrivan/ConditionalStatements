@@ -55,4 +55,4 @@ The nested ```If``` and ```else``` statement is the following:
     else: 
         print("This fuel is incapable to give the specific impulse needed to launch such rocket.")
 ```
-This is saying that ```if``` a specific impulse is equal ```==``` to 256, then print the following statement: ```print("Fuel type needed for a 256 Specific Impulse is Kerosene", specific_impulse_2)```. If the value of specific impulse does not meet these requirements then the ```else``` statement will be carried out. 
+This is saying that ```if``` a specific impulse is equal ```==``` to 256, then print the following statement: ```print("Fuel type needed for a 256 Specific Impulse is Kerosene", specific_impulse_2)```. If the value of specific impulse does not meet these requirements then the ```else``` statement will be carried out: ```print("This fuel is incapable to give the specific impulse needed to launch such rocket.")```
