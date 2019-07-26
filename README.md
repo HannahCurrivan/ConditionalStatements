@@ -20,12 +20,14 @@ else:
 We see that if the ```if``` statement is not carried out, the ```Else``` statement is then giving another option of an outcome with the following statement: ```print("Fuel type needed for a 289 Specific Impulse is Kerosene")```.
 
 ## Elif Statement:
-The Elif Statement gives you another option.
+The ```Elif``` statement allows you to check many different expressions for TRUE and to excute a block of code as soon as one of the conditions match to TRUE. 
 
 ```python
 elif specific_impulse == 320:
     print("This means you can use Kerosene with the Specific Impulse of 320.")
 ```
+
+
 ## Nested:
 This is were you can but another if statement into yor current if statements.
 
