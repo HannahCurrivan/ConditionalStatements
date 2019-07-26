@@ -29,7 +29,7 @@ elif specific_impulse == 320:
 The ```Elif``` statement in this case is saying if the specfic impulse is equal to 320, the outcome will be the following: ``` print("This means you can use Kerosene with the Specific Impulse of 320.")```
 
 ## Nested:
-This is were you can but another if statement into yor current if statements.
+This is when a ```If``` statement is within another ```If``` statement, and also when an ```else``` statement is within another ```else``` statement. 
 
 ```python
 if specific_impulse != 289:
@@ -47,3 +47,12 @@ elif specific_impulse == 320:
 else:
     print("Fuel type needed for a 289 Specific Impulse is Kerosene")
 ```
+The nested ```If``` and ```else``` statement is the following: 
+```python
+    if specific_impulse_2 == 256:
+        print("Fuel type needed for a 256 Specific Impulse is Kerosene", specific_impulse_2)
+        
+    else: 
+        print("This fuel is incapable to give the specific impulse needed to launch such rocket.")
+```
+This is saying that ```if``` a specific impulse is equal ```==``` to 256, then print the following statement: ```print("Fuel type needed for a 256 Specific Impulse is Kerosene", specific_impulse_2)```. If the value of specific impulse does not meet these requirements then the ```else``` statement will be carried out. 
